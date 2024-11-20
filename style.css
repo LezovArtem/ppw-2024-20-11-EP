@@ -1,0 +1,40 @@
+html{
+    background-image: url(resources/images/new_background_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    margin: 1em;
+    border: solid 1px black;
+}
+
+div.general{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.orar-title{
+    text-align: center;
+}
+
+.orar-title h4{
+    color: #666;
+}
+
+.choose-mode{
+    text-align: center;
+}
+
+.choose-mode a{
+    text-decoration: none;
+}
